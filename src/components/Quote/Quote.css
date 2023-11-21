@@ -1,0 +1,68 @@
+.quote{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.button {
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: #d52941;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (min-width:250px ) {
+    .quote{
+        font-size: 1.2rem;
+    }
+    .button{
+        width: 50%;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+
+@media (min-width:300px ){
+    .quote{
+        font-size: 1.2rem;
+    }
+    .button{
+        width: 50%;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+
+@media (min-width:500px ){
+    .quote{
+        font-size: 1.3rem;
+    }
+    .button{
+        width: 30%;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width:1000px){
+    .quote{
+        font-size: 1.5rem;
+    }
+    .button{
+        width: 50%;
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0.8rem;
+    }
+}

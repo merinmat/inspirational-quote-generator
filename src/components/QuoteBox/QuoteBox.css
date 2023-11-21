@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../../assets/city.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.quotebox{
+    height: 100%;
+    width: 100%;
+    color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 0.6rem;
+}
+
+@media (min-width:250px ) {
+    .quotebox{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:300px ) {
+    .quotebox{
+        width: 50%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:500px ) {
+    .quotebox{
+        width: 50%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:1000px){
+    .quotebox{
+        width: 50%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
